@@ -1929,7 +1929,7 @@ runtime = process.uptime()
                 stod = `${sender}`
        stst = await kurr.getStatus(`${sender.split('@')[0]}@c.us`)
 				stst = stst.status == 401 ? '' : stst.status
-       menu = `╭─❒ 「 KurzBotz Assistan Info 」
+       menu = `╭─❒ 「 MochinBot Assistan Info 」
 *冬TOTAL MENU :464*
 *冬OWNER: ${NamaOwner}*
 *冬NOMER OWNER: ${NomorOwner}*
