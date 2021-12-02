@@ -2640,10 +2640,10 @@ const serialUser = createSerial(18)
 	        fs.writeFileSync('./database/registered.json', JSON.stringify(_registered))
 	        addRegisteredUser(sender, serialUser)
 	         const jancok = `╭─❒ 「 Verify 」 ❒
- * Nama :* ${pushname}
- * Nomor :* @${sender.split('@')[0]}
- * Seri:* ${serialUser}
- * Pengguna:* ${_registered.length}
+ *Nama :* ${pushname}
+ *Nomor :* @${sender.split('@')[0]}
+ *Seri:* ${serialUser}
+ *Pengguna:* ${_registered.length}
 └❏
 
 *「 ${NamaBot} 」*`
